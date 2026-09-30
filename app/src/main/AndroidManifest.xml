@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeautyProducts">
+        <activity
+            android:name=".Oder_Confirm"
+            android:exported="false" />
+        <activity
+            android:name=".Pay_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Moch_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Hig_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Hig_Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity10"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity9"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity8"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity7"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity6"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity5"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Hig_Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".NR_Activity12"
+            android:exported="false" />
+        <activity
+            android:name=".NR_Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".NR_Activity10"
+            android:exported="false" />
+        <activity
+            android:name=".NR_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".NR_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".NP_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Nai_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Nai_Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity10"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity9"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity8"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity7"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity6"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity5"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity3"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity2"
+            android:exported="false" />
+        <activity
+            android:name=".Nai_Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity12"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity11"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity10"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity9"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity8"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity7"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity6"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity5"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity4"
+            android:exported="false" />
+        <activity
+            android:name=".Pri_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Pri_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Pri_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Moch_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Lline_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".LS_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".LB_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Eline_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Esh_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Ka_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Foun_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Comp_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity12"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity11"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity10"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity9"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity8"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity7"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity6"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity5"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity2"
+            android:exported="true" />
+        <activity
+            android:name=".Brus_Activity1"
+            android:exported="true" />
+        <activity
+            android:name=".LipBalm_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Primer_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Brush_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Highlighter_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".NailsPolis_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".NailsRemover_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Nails_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".LipLiner_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Mochuraizer_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Liptick_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".EyeLiner_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".EyeShadow_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Foundation_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".Kajal_Activity"
+            android:exported="true" />
+        <activity
+            android:name=".CompactActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"/>
+
+
+
+        <activity
+            android:name=".Logo_Activity"
+            android:exported="true" />
+
+
+
+        <activity
+            android:name=".Registration_Activity"
+            android:exported="true" />
+
+
+        <activity
+            android:name=".login_Activity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+    </application>
+
+</manifest>
